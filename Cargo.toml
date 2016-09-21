@@ -1,0 +1,8 @@
+[package]
+name = "db_to_json_in_rust"
+version = "0.1.0"
+authors = ["Cliff H <cliffhazelton@gmail.com>"]
+
+[dependencies]
+postgres = { version = "0.11", features = ["chrono"] }
+chrono   = { version = "0.2",  features = ["serde", "rustc-serialize"] }
