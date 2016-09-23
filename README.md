@@ -12,6 +12,10 @@ Compiled with
 rustc 1.12.0-beta.2 (389dad798 2016-08-24)
 ```
 
+##### NOTES
+
+https://github.com/sfackler/rust-postgres
+
 ##### TODO
 
 1. Add `signed_up_at` timestamp to the `User` struct, and add it to the response.
